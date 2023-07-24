@@ -1,28 +1,39 @@
+:root {
+  --base: #1063c8;
+  --spacing: 10px;
+  --blur: 10px;
+}
 
-    /*
-      misc styles, nothing to do with CSS variables
-    */
+img {
+  padding: var(--spacing);
+  background: var(--base);
+  filter: blur(var(--blur));
+  display: block;
+  margin: auto;
+  width: 50%;
+}
 
-    body {
-        text-align: center;
-        background: #193549;
-        color: white;
-        font-family: 'helvetica neue', sans-serif;
-        font-weight: 100;
-        font-size: 50px;
-      }
-  
-      .controls {
-        margin-bottom: 50px;
-      }
-  
-      input {
-        width: 100px;
-      }
+.hl {
+  color: var(--base);
+}
 
-      img {
-        display: block;
-        margin: auto;
-        width: 90%;
+/*
+ misc styles, nothing to do with CSS variables
+*/
 
-      }
+body {
+  text-align: center;
+  background: #032944;
+  color: white;
+  font-family: "helvetica neue", sans-serif;
+  font-weight: 100;
+  font-size: 50px;
+}
+
+.controls {
+  margin-bottom: 50px;
+}
+
+input {
+  width: 100px;
+}
