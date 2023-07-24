@@ -19,3 +19,10 @@
       input {
         width: 100px;
       }
+
+      img {
+        display: block;
+        margin: auto;
+        width: 90%;
+
+      }
